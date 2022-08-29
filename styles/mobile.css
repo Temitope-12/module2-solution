@@ -1,0 +1,40 @@
+@media (max-width: 767px){
+   
+    .childdiv{display: block;
+        width: 100%; 
+    }
+    .box{
+        padding: 40px 6opx;
+    }
+
+}
+    
+@media (min-width:768px) and (max-width:991px){
+    .childdiv{
+        display: flex;
+        flex-wrap: wrap;
+       
+      
+    }
+    .bus{
+        width: 100%;
+        /* flex-direction: column; */
+       
+    } 
+    .buss{
+        /* display: inline-flex;
+        direction: initial; */
+        width: 47%;
+        flex-direction: row;
+        margin: 5px 10px;
+        
+    }
+    
+    
+
+@media  (min-width: 992px){
+    
+}
+
+
+}
